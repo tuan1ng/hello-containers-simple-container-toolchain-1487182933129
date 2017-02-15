@@ -19,7 +19,7 @@ var PORT = 80;
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('From Test lab:  Welcome to Bluemix DevOps with Docker. Lets go use Pipeline Services');
+  res.send('From Test lab #2:  Welcome to Bluemix DevOps with Docker. Lets go use Pipeline Services');
 });
 
 app.listen(PORT)
